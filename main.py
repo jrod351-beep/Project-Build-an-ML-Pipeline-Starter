@@ -48,10 +48,9 @@ def go(config: DictConfig):
                     "artifact_description": "Raw file as downloaded"
                 },
             )
-
         if "basic_cleaning" in active_steps:
             _ = mlflow.run(
-                f"{config['main']['components_repository']}/basic_cleaning",
+                "src/basic_cleaning",
                 "main",
                 env_manager="conda",
                 parameters={
