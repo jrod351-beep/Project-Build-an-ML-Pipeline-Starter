@@ -185,3 +185,17 @@ Please, make sure all steps are using **the same** python version and that you h
 ## License
 
 [License](LICENSE.txt)
+
+WGU Project Screenshots
+
+1. Reference Tag — Latest Artifact Version
+
+The screenshot below shows the reference alias assigned to the latest version of the artifact in Weights & Biases.
+
+
+
+2. ML Pipeline Visualization
+
+The screenshot below shows the Weights & Biases pipeline lineage and the model_export artifact.
+
+
